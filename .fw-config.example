@@ -1,0 +1,9 @@
+# .fw-config — per-project settings for fw-boot / fw-verify / fw-handoff (copy to .fw-config)
+FW_PROJECT="my-project"
+# FW_GATE="bash fw-verify.sh"   # default when fw-verify.sh is present; any command that exits 0/1
+# FW_NOW_STYLE="top"            # top = newest entry first (default) · bottom = append-only log
+# FW_NOW="NOW.md"               # the ground-truth file fw-boot reads first
+# FW_NEXT_FILE="ROADMAP.md"     # where fw-boot reads the top "next" items
+# FW_CLAUDE_SYNC=1              # 1 = fw-handoff rewrites the <!-- AUTO:NOW --> block in CLAUDE.md
+# FW_AUTO_PUSH=0                # 1 = push after a successful handoff (opt-in; default commit-only)
+# FW_HANDOFF_EXTRA=""           # a shell snippet run at every handoff (index rebuilds, snapshots)

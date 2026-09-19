@@ -1,0 +1,6 @@
+# .fw-checks.sh — the checks only THIS project needs. Sourced by fw-verify.sh after the generic ones.
+# API:  fw_check "<label>" <command...>     (exit 0 = ✓, anything else = ✗; never mute a failing check)
+fw_check "README present" test -f README.md
+fw_check "no TODO left in NOW.md" bash -c '! grep -q "TODO" NOW.md'
+# fw_check "package.json parses" node -e 'require("./package.json")'
+# fw_check "unit tests" npm test --silent
