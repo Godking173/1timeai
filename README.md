@@ -26,3 +26,9 @@ The doctrine behind it: `DOCTRINE.md`. The catalog that stops re-building: `TOOL
 
 `examples/fw-claims-lint.js` is one real per-project check (a marketing-copy lint) to copy the
 shape from. This tree was produced by a deterministic exporter; `MANIFEST.sha256` lists every file.
+
+## License
+
+Licensed under the Apache License, Version 2.0 — see `LICENSE` and `NOTICE`. The License does
+not grant trademark rights: the "1TimeAi" name and any project branding are not licensed for use
+beyond what the License itself provides.
