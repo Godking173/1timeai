@@ -34,6 +34,11 @@ Licensed under the Apache License, Version 2.0 — see `LICENSE` and `NOTICE`. T
 not grant trademark rights: the "1TimeAi" name and any project branding are not licensed for use
 beyond what the License itself provides.
 
+## Cite this
+
+`CITATION.cff` is at the repo root — GitHub renders a "Cite this repository" button from it.
+Canonical repository and current release: https://github.com/Godking173/1timeai/releases
+
 ---
 
 Pairs well with [Sonar](https://github.com/Godking173/sonar) — the prior-art search that should
