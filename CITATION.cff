@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "1TimeAi"
+type: software
+authors:
+  - name: "Eli Bundy"
+repository-code: "https://github.com/Godking173/1timeai"
+url: "https://github.com/Godking173/1timeai"
+license: Apache-2.0
+date-released: "2026-09-19"

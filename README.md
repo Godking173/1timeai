@@ -13,6 +13,7 @@ The doctrine behind it: `DOCTRINE.md`. The catalog that stops re-building: `TOOL
 
 ## Install into a project
 
+    git clone https://github.com/Godking173/1timeai.git && cd 1timeai
     cp fw-boot.sh fw-handoff.sh fw-verify.sh agent-ops-lib.sh <your-repo>/
     cp .fw-config.example  <your-repo>/.fw-config      # edit
     cp .fw-checks.sh.example <your-repo>/.fw-checks.sh # add the checks only that project needs
@@ -32,3 +33,8 @@ shape from. This tree was produced by a deterministic exporter; `MANIFEST.sha256
 Licensed under the Apache License, Version 2.0 — see `LICENSE` and `NOTICE`. The License does
 not grant trademark rights: the "1TimeAi" name and any project branding are not licensed for use
 beyond what the License itself provides.
+
+---
+
+Pairs well with [Sonar](https://github.com/Godking173/sonar) — the prior-art search that should
+run before you lock something in. Author: Eli Bundy — see `NOTICE`.
